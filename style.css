@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .title {
@@ -28,6 +29,9 @@ body {
   margin-top: 40px;
   display: flex;
   gap: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 .countdown {
@@ -53,4 +57,14 @@ body {
 
 .image {
   height: 30vh;
+}
+
+@media screen and (max-width: 960px) {
+  .count {
+    width: 90%;
+  }
+  .numbers {
+    padding: 20px;
+    font-size: 50px;
+  }
 }
